@@ -20,6 +20,8 @@
     .dialog > div {
         margin: 5%;
         padding: 1%;
-        font-size: 2em;
         padding: 2%;
+    }
+    #dialogMessage {
+        font-size: 2em;
     }

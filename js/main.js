@@ -14,7 +14,7 @@ function buildButtons(btns) {
         document.body.innerHTML = "<div id='modal'></div>" + document.body.innerHTML;
         let buttonString = "";
         for (let i = 0; i < btns.length; i++) {
-            buttonString += '<div class="buttonC" data="' + btns[i].toString() + '" onclick="dialogEvent(this);">Click Me</div>';
+            buttonString += '<div class="bttn bttnA" data="' + btns[i].toString() + '" onclick="dialogEvent(this);">Click Me</div>';
         }
         document.getElementById("mainComponent").innerHTML = buttonString + document.getElementById("mainComponent").innerHTML + "<div id='resultMessage'></div>";
     } else {
