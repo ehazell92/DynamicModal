@@ -1,0 +1,29 @@
+.displayNone { display: none !important; }
+body {
+    margin: 0;
+    padding: 0;
+}
+    .mainComponent {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+        .buttonC {
+            box-shadow: 3px 3px 4px;
+            margin: 2%;
+            text-align: center;
+            position: relative;
+            display: inline-block;
+            padding: .5%;
+            cursor: pointer;
+        }
+            .buttonC:hover {
+                background-color: rgb(1, 135, 134, 0.3);
+                box-shadow: 2px 2px 2px black;
+            }
+
+        #resultMessage {
+            margin-left: 2%;
+            margin-top: 1%;
+            font-size: 4vH;
+        }

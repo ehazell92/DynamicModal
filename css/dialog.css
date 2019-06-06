@@ -1,0 +1,25 @@
+.dropShadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 2;
+}
+.dialog {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 30%;
+    height: 14em;
+
+    background-color: #e0e0eb;
+    z-index: 3;
+    text-align: center;
+    box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.3);
+}
+    .dialog > div {
+        margin: 5%;
+        padding: 1%;
+        font-size: 2em;
+        padding: 2%;
+    }
